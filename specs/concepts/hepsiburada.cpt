@@ -1,0 +1,32 @@
+# Login yapılır
+
+// Kullanıcı siteye girer ve çerez banner'ı kapatılır
+* Tarayıcıyı aç ve Hepsiburada'ya git
+* Çerez banner'ını kapat
+
+// Giriş formu açılır, bilgiler girilir ve login doğrulanır
+* Giriş yap butonuna tıkla
+* Email ve şifre ile giriş yap
+* Assertion|Verify User Logged In Successfully
+
+
+# <key> aranır ve sepete eklenir
+
+// Arama kutusuna ürün adı yazılır ve sonuçlar doğrulanır
+* Arama kutusuna <key> yaz ve ara
+* Assertion|Verify The Search Response for <key>
+
+// İkinci satırdaki ilk ürün sepete eklenir ve sayaç kontrol edilir
+* İkinci satırdaki ilk ürünü sepete ekle
+* Assertion|Verify Product Added To Cart
+
+
+# Sepet kontrol edilir ve ürün silinir
+
+// Sepet sayfası açılır, ürünün orada olduğu doğrulanır
+* Sepeti aç
+* Assertion|Verify Product Visible In Cart
+
+// Ürün sepetten silinir ve sepetin boş kaldığı doğrulanır
+* Sepetten ürünü sil
+* Assertion|Verify Cart Is Empty

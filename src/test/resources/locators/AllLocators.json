@@ -1,0 +1,25 @@
+{
+  "HomePage": {
+    "cookieAcceptButton": { "type": "id", "value": "hb-accept-all" },
+    "loginButton": { "type": "id", "value": "login" },
+    "searchInput": { "type": "css", "value": "input[data-test-id='search-bar-input']" },
+    "searchResultTitle": { "type": "css", "value": "h1[data-test-id='header-h1']" },
+    "cartIcon": { "type": "css", "value": "a[href='https://checkout.hepsiburada.com/sepetim']" },
+    "cartItemCount": { "type": "id", "value": "cartItemCount" },
+    "loggedInUserIndicator": { "type": "css", "value": "a[title='Hesabım']" }
+  },
+  "LoginPage": {
+    "emailInput": { "type": "id", "value": "txtUserName" },
+    "passwordInput": { "type": "id", "value": "txtPassword" },
+    "submitLoginButton": { "type": "id", "value": "btnLogin" }
+  },
+  "SearchResultsPage": {
+    "productCards": { "type": "css", "value": "div.productCard-module_productCardRoot__Yf7qs" },
+    "addToCartButtons": { "type": "css", "value": "[data-test-id*='add-to-cart-button']" },
+    "modalAddToCartButton": { "type": "css", "value": "[data-test-id='variant-add-to-cart-button']" }
+  },
+  "CartPage": {
+    "cartProductName": { "type": "css", "value": ".product_name_2Klj3 a" },
+    "removeFromCartButton": { "type": "css", "value": "a[aria-label='Sepetten Çıkar']" }
+  }
+}
