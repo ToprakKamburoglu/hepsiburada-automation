@@ -18,7 +18,7 @@ Gauge + Selenium + Java ile yazılmış, Hepsiburada.com üzerinde login, arama,
 - `src/test/resources/locators/` – Locator tanımları (JSON)
 
 ## Kurulum
-1. Repoyu klonlayın. (git clone https://github.com/ToprakKamburoglu/hepsiburada-automation.git)
+1. Repoyu klonlayın: git clone https://github.com/ToprakKamburoglu/hepsiburada-automation.git
 2. `src/test/resources/config.properties.example` dosyasını kopyalayıp `config.properties` olarak kaydedin, kendi Hepsiburada hesap bilgilerinizi girin.
 3. Gauge CLI'ı kurun: https://docs.gauge.org/getting_started/installing-gauge.html
 4. Java plugin'i kurun: `gauge install java`
